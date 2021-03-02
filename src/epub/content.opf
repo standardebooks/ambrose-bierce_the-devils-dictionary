@@ -35,42 +35,51 @@
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2009124970</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="term" refines="#subject-2">sh42099656</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2010117990</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Poetry</meta>
+		<meta property="se:subject">Satire</meta>
+		<meta id="collection-1" property="belongs-to-collection">The Collected Works of Ambrose Bierce</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">7</meta>
+		<dc:description id="description">A witty, sharp collection of word definitions from the 1800s and early 1900s that provide a snapshot into the reverent humor of early American culture. </dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;“&lt;b&gt;Dictionary&lt;/b&gt;&lt;em&gt;, n&lt;/em&gt;: A malevolent literary device for cramping the growth of a language and making it hard and inelastic. This dictionary, however, is a most useful work.”&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ambrose-bierce"&gt;Bierce’s&lt;/a&gt; groundbreaking &lt;i&gt;Devil’s Dictionary&lt;/i&gt; had a complex history behind its publication. Started in the mid-1800s as an irregular column in Californian newspapers under various titles, he gradually refined the novel-at-the-time idea of an irreverent set of glossary-like definitions. The final name, as we see it titled in this work, did not appear until 1881 in a column published in the periodical &lt;i&gt;The San Francisco Illustrated Wasp&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;There were no publications of the complete glossary in the 1800s. Not until 1906 did a portion of Bierce’s collection get published by Doubleday, under the name &lt;i&gt;The Cynic’s Word Book&lt;/i&gt;—the publisher not wanting to use the word &lt;em&gt;Devil&lt;/em&gt; in the title to the great disappointment of the author. The 1906 word book only went from A to L, however, and the remainder was never released under the compromised title.&lt;/p&gt;
+			&lt;p&gt;In 1911 the &lt;i&gt;Devil’s Dictionary&lt;/i&gt; as we know it was published in a complete form as part of Bierce’s collected works (volume 7 of 12), including the remainder of the definitions from M to Z. It has been republished a number of times, including a more recent effort where older defintions from his columns that never made it into the original book were published alongside those found here.&lt;/p&gt;
+			&lt;p&gt;Bierce enjoyed “quoting” his pseudonyms in his work. Most of the poetry, dramatic scenes and stories in this book attributed to others were self-authored and do not exist outside of this work. This includes the prolific &lt;em&gt;Father Gassalasca Jape&lt;/em&gt; who he thanks in the preface—&lt;em&gt;jape&lt;/em&gt; of course having the definition: “a practical joke.”&lt;/p&gt;
+			&lt;p&gt;This book is a product of its time in the 1800s and early 1900s of American culture and must be reach as such. Many of the definitions hold up well today, while others would be unpublishable for a variety of obvious reasons. Regardless, the humor of the column is a valuable snapshot of the American culture of the time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/972</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:source>https://archive.org/details/cu31924014323772</dc:source>
+		<meta property="se:production-notes">The format of the dictionary has been modified to use HTML definition lists and a glossary style.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Devil%27s_Dictionary</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ambrose-bierce_the-devils-dictionary</meta>
 		<dc:creator id="author">Ambrose Bierce</dc:creator>
 		<meta property="file-as" refines="#author">Bierce, Ambrose</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Ambrose Gwinnett Bierce</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ambrose_Bierce</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79100683</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Louis Candide Boulanger</dc:contributor>
+		<meta property="file-as" refines="#artist">Boulanger, Louis Candide</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Louis_Boulanger</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/no2008181934</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">"Aloysius"</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<dc:contributor id="transcriber-1">Aloysius</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Aloysius</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Matt Mastracci</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Mastracci, Matt</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://mastracci.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
