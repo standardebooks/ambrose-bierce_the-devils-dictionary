@@ -13,10 +13,6 @@ a.fake-definition{
 }
 
 /* Glossary */
-em.sub-definition{
-	font-variant: small-caps;
-}
-
 dt > dfn{
 	font-style: normal;
 	font-variant: small-caps;
@@ -89,6 +85,17 @@ dt.noun-plural > dfn::after{
 dt.adjective.noun > dfn::after{
 	content: ", adj. and n." !important;
 }
+
+dd > dl {
+	margin-top: 1em;
+}
+
+dd > dl * {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
 /* End glossary */
 
 /* Epigraphs in section headers */
