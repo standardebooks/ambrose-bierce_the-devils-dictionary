@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 a.xref{
 	font-variant: all-small-caps;
@@ -31,6 +32,11 @@ dt > dfn::after{
 	font-variant: normal;
 }
 
+dt[xml|lang~="la"] + dd::before{
+	content: "(Latin.)\00a0";
+	float: left;
+}
+
 dt.eoc > dfn::after{
 	content: " ";
 }
@@ -49,11 +55,11 @@ dt.adjective > dfn::after{
 }
 
 dt.verb-transitive > dfn::after{
-	content: ", v.t.";
+	content: ", v. t.";
 }
 
 dt.verb-intransitive > dfn::after{
-	content: ", v.i.";
+	content: ", v. i.";
 }
 
 dt.adverb > dfn::after{
@@ -77,7 +83,7 @@ dt.unknown > dfn::after{
 }
 
 dt.noun-plural > dfn::after{
-	content: ", n.pl.";
+	content: ", n. pl.";
 }
 
 dt.adjective.noun > dfn::after{
