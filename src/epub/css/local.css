@@ -29,7 +29,7 @@ dt > dfn::after{
 }
 
 dt[xml|lang~="la"] + dd::before{
-	content: "(Latin.)\00a0";
+	content: "(Latin.) ";
 	float: left;
 }
 
@@ -86,16 +86,30 @@ dt.adjective.noun > dfn::after{
 	content: ", adj. and n." !important;
 }
 
-dd > dl {
+dd > dl{
 	margin-top: 1em;
 }
 
-dd > dl * {
+dd > dl *{
 	display: inline;
 	margin: 0;
 	padding: 0;
 }
 
+dl > dd > ol{
+	counter-reset: list-item-index;
+	margin: 0;
+	padding: 0;
+}
+
+dl > dd > ol > li{
+	display: inline;
+	counter-increment: list-item-index;
+}
+
+dl > dd > ol > li::before{
+	content: counter(list-item-index) ". ";
+}
 /* End glossary */
 
 /* Epigraphs in section headers */
