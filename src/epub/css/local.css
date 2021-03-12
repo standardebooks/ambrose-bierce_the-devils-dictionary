@@ -95,7 +95,9 @@ dd > dl *{
 	margin: 0;
 	padding: 0;
 }
+/* End glossary */
 
+/* Embedded ordered list (for WITCH) */
 dl > dd > ol{
 	counter-reset: list-item-index;
 	margin: 0;
@@ -107,10 +109,15 @@ dl > dd > ol > li{
 	counter-increment: list-item-index;
 }
 
+dl > dd > ol *{
+	display: inline;
+}
+
 dl > dd > ol > li::before{
+	display: inline;
 	content: counter(list-item-index) ". ";
 }
-/* End glossary */
+/* End embedded ordered list */
 
 /* Epigraphs in section headers */
 section > header [epub|type~="epigraph"]{
