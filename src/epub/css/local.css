@@ -39,18 +39,12 @@ dt > dfn::after{
 	font-variant: normal;
 }
 
-dt[xml|lang~="la"] + dd::before{
-	content: "(Latin.) ";
-	float: left;
-}
-
 dt.eoc > dfn::after{
 	content: " ";
 }
 
 dt.question > dfn::after{
-	content: "?";
-	font-style: normal;
+	content: "";
 }
 
 dt.noun > dfn::after{
