@@ -6,4 +6,16 @@
 			<reason>::after styles cannot be simplified when content text is unique</reason>
 		</ignore>
 	</file>
+	<file path="d.xhtml">
+		<ignore>
+			<code>t-028</code>
+			<reason>Use left single quote for a name per 8.7.5.3.2</reason>
+		</ignore>
+	</file>
+	<file path="f.xhtml">
+		<ignore>
+			<code>t-028</code>
+			<reason>Use left single quote for a name per 8.7.5.3.2</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
