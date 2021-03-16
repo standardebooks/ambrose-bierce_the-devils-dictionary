@@ -111,7 +111,7 @@
 		<item href="text/k.xhtml" id="k.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/l.xhtml" id="l.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/m.xhtml" id="m.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/n.xhtml" id="n.xhtml" media-type="application/xhtml+xml" properties="mathml"/>
+		<item href="text/n.xhtml" id="n.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/o.xhtml" id="o.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/p.xhtml" id="p.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
@@ -124,7 +124,7 @@
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/v.xhtml" id="v.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/w.xhtml" id="w.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/x.xhtml" id="x.xhtml" media-type="application/xhtml+xml" properties="mathml"/>
+		<item href="text/x.xhtml" id="x.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/y.xhtml" id="y.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/z.xhtml" id="z.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
