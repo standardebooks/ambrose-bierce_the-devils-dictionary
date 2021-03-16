@@ -104,27 +104,9 @@ dd > dl *{
 }
 /* End glossary */
 
-/* Embedded ordered list (for WITCH) */
-dl > dd > ol{
-	counter-reset: list-item-index;
-	margin: 0;
-	padding: 0;
+dd ol{
+	padding-left: 1em;
 }
-
-dl > dd > ol > li{
-	display: inline;
-	counter-increment: list-item-index;
-}
-
-dl > dd > ol *{
-	display: inline;
-}
-
-dl > dd > ol > li::before{
-	display: inline;
-	content: counter(list-item-index) ". ";
-}
-/* End embedded ordered list */
 
 /* Epigraphs in section headers */
 section > header [epub|type~="epigraph"]{
