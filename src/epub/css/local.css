@@ -2,14 +2,12 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-a.xref{
+dd a{
 	font-variant: all-small-caps;
 }
 
-/* Some of the cross references are actually fake, so we remove the <a> 
-	color but leave the styling intact */
-a.fake-definition{
-	color: inherit;
+#laureate + dd + dt + dd a{
+	font-variant: normal;
 }
 
 /* Glossary */
