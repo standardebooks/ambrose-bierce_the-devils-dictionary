@@ -53,8 +53,8 @@
 		<dc:source>https://archive.org/details/cu31924014323772</dc:source>
 		<dc:source>https://archive.org/details/san-francisco-newletter-dec-11-1875</dc:source>
 		<meta property="se:production-notes">The format of the dictionary has been modified to use HTML definition lists and a glossary style. Modernization has been applied selectively and less heavily to the stories and poetry that accompany the prose. The definitions for "A" and a number of additional definitions under that letter were restored from a scan of Bierce's Demon's Dictionary column from Dec 11 1875.</meta>
-		<meta property="se:word-count">60095</meta>
-		<meta property="se:reading-ease.flesch">60.45</meta>
+		<meta property="se:word-count">60991</meta>
+		<meta property="se:reading-ease.flesch">60.55</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Devil%27s_Dictionary</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ambrose-bierce_the-devils-dictionary</meta>
 		<dc:creator id="author">Ambrose Bierce</dc:creator>
