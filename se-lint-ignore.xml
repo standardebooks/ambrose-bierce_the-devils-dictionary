@@ -6,4 +6,10 @@
 			<reason>::after styles cannot be simplified when content text is unique</reason>
 		</ignore>
 	</file>
+	<file path="a.xhtlm">
+		<ignore>
+			<code>t-057</code>
+			<reason>Lowercase is correct here</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
