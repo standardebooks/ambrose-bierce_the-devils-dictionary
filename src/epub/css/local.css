@@ -220,6 +220,6 @@ p span.i14{
 }
 /* End Drama */
 
-abbr.era{
+[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
