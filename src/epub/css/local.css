@@ -15,6 +15,14 @@ footer{
 	text-align: right;
 }
 
+dl{
+	margin: 1em 0;
+}
+
+dd{
+	margin-left: 40px;
+}
+
 dd a{
 	font-variant: all-small-caps;
 }
@@ -89,10 +97,6 @@ dt.noun-plural > dfn::after{
 
 dt.adjective.noun > dfn::after{
 	content: ", adj. and n." !important;
-}
-
-dd > dl{
-	margin-top: 1em;
 }
 
 dd > dl *{
