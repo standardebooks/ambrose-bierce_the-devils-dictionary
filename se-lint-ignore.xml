@@ -2,16 +2,19 @@
 <se-lint-ignore>
 	<file path="a.xhtml">
 		<ignore code="t-057">
+			<line>515</line>
 			<reason>Lowercase is correct here</reason>
 		</ignore>
 	</file>
 	<file path="c.xhtml">
 		<ignore code="c-008">
+			<line>771</line>
 			<reason>::after styles cannot be simplified when content text is unique</reason>
 		</ignore>
 	</file>
 	<file path="h.xhtml">
 		<ignore code="c-008">
+			<line>91</line>
 			<reason>::after styles cannot be simplified when content text is unique</reason>
 		</ignore>
 	</file>
