@@ -1,0 +1,1 @@
+The format of the dictionary has been modified to use HTML definition lists and a glossary style. Modernization has been applied selectively and less heavily to the stories and poetry that accompany the prose. The definitions for "A" and a number of additional definitions under that letter were restored from a scan of Bierce's Demon's Dictionary column from Dec 11 1875.
