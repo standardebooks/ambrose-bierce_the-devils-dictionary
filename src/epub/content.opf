@@ -40,7 +40,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2010117990</meta>
 		<meta property="schema:genre">Satire</meta>
-		<dc:abstract>A witty, sharp collection of sardonic word definitions from the 1800s and early 1900s that provide a snapshot into the irreverent humor of early American culture.</dc:abstract>
+		<meta property="schema:abstract">A witty, sharp collection of sardonic word definitions from the 1800s and early 1900s that provide a snapshot into the irreverent humor of early American culture.</meta>
 		<dc:description>
 			&lt;p&gt;“&lt;b&gt;Dictionary&lt;/b&gt;&lt;em&gt;, n&lt;/em&gt;: A malevolent literary device for cramping the growth of a language and making it hard and inelastic. This dictionary, however, is a most useful work.”&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ambrose-bierce"&gt;Bierce’s&lt;/a&gt; groundbreaking &lt;i&gt;Devil’s Dictionary&lt;/i&gt; had a complex publication history. Started in the mid-1800s as an irregular column in Californian newspapers under various titles, he gradually refined the new-at-the-time idea of an irreverent set of glossary-like definitions. The final name, as we see it titled in this work, did not appear until an 1881 column published in the periodical &lt;i&gt;The San Francisco Illustrated Wasp&lt;/i&gt;.&lt;/p&gt;
